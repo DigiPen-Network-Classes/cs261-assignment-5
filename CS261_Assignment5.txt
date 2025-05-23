@@ -1,14 +1,16 @@
-1) The current value of kMaxMoveHistorySize is 100; however, this is more of a history than we ever really need. Measure the the max movement history records used at the default settings (no send interval), and enter the number here:  (5 points)
+1) The current value of kMaxMoveHistorySize is 100; however, this is more of a history than we ever really need.  Measure the the max movement history records used at the default settings (no send interval).  Determine the max history records used, and show you work! 
+Include the code changes you used to get the measurement with your submission, and explain your methodology (along with the number) here:  (5 points)
 
 <ANSWER_1>
 
 
-2) Change the host's send interval to 500 ms, and measure the the max movement history records used again, and enter the number here. (5 points)
+2) Change the host's send interval to 500 ms, and measure the the max movement history records used again. Did you use the same measuring technique? Explain the meaning of the answer -- why it is different or the same, and why.
+Enter the number and the explanation . (5 points)
 
 <ANSWER 2>
 
 
-3) Introduce 500ms of latency via Clumsy, using the "udp.DstPort == 4200" (additional) filter, per the lab and assignment doc. Keep the send interval at 500ms as well. Measure the the max movement history records used again, and enter the number here. (5 points)
+3) Introduce 500ms of latency via Clumsy, using the "udp.DstPort == 4200" (additional) filter, per the lab and assignment doc. Keep the send interval at 500ms as well.  Measure the the max movement history records used again, and enter the number here and explain why the value is different or the same. (5 points)
 
 <ANSWER 3>
 
